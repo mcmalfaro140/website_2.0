@@ -1,0 +1,30 @@
+nav {
+    background-color: black;
+  }
+  .logo {
+    width: 6%;
+  }
+  .logoName {
+    color: white;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 150%;
+    font-weight: 400;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #7ef9ff;
+  }
+  
+  ul span {
+    color: white;
+    font-size: 150%;
+    font-weight: 400;
+    margin-top: 2%
+  }
+  
+  
