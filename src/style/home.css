@@ -1,7 +1,7 @@
 /*mobil view*/
 .App {
     background-image: url('../img/test2.jpg');
-    height: 90.8vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,17 +9,22 @@
     padding: 0%;
     overflow: hidden;
     white-space: nowrap;
+   
+
     
   }
     
   .cont {
     margin-left:auto;
     margin-right:auto;
-    height: 50vh;
+    /* height: 50vh; */
     padding: 10%;
     color: white;
     padding-top: 30%;
     text-align: center ;
+    scroll-behavior: smooth;
+    scroll-snap-type-y: mandatory;
+    scroll-snap-align: center;
     
 }
 .welcome{
@@ -95,7 +100,7 @@ div a {
 @media only screen and (min-width: 1033px){
         
     .cont {
-        padding-top: 5%;
+        padding-top: 10%;
     }
     .welcome{
         font-size: 500%;

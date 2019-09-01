@@ -1,6 +1,8 @@
+
 nav {
     background-color: black;
-  }
+    position: fixed;
+}
   .logo {
     width: 6%;
   }

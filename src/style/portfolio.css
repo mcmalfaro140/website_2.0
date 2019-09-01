@@ -1,0 +1,35 @@
+/*mobil view*/
+.App {
+    background-image: url('../img/test2.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    scroll-snap-type-y: mandatory;
+    scroll-snap-align: center;
+    
+    
+  }
+
+  div h1 {
+    color:white;
+    font-size: 300%;
+    text-align: center;
+    padding: 25%
+  }
+ 
+/*Tablet view*/
+@media only screen and (min-width: 768px) {
+    
+}
+
+
+/*Desktop view*/
+@media only screen and (min-width: 1033px){
+    
+}
