@@ -1,8 +1,10 @@
 import React from 'react';
 import '../style/home.css';
 
+console.log("Hello Yi")
 
-function Main() {s
+
+function Main() {
   return (
     <div className="App">
       <section id="Home">
@@ -11,7 +13,7 @@ function Main() {s
           <div className="welcome"> Welcome!!!</div>
           <div className="text">My name is <span className="welcome" style={{fontSize: '200%'}}>Misael Corvera.</span> </div>
           <div className="text">I am an enthusiastic Software Developer ready to help you achieve your goals.</div>
-          <button className="btn" class="btn btn-primary" onClick={makeMeCrash}>Download my resume</button>
+          <button className="btn" class="btn btn-primary" >Download my resume</button>
           <div>
             <i class="fab fa-github-square"></i>
             <i class="fab fa-linkedin" ></i>
