@@ -1,5 +1,6 @@
 import React from 'react';
-import '../style/portfolio.css'
+import '../style/about.css'
+import me from '../img/me.svg';
 
 class About extends React.Component {
     state = {  }
@@ -7,7 +8,17 @@ class About extends React.Component {
         return ( 
             <div className="App">
                 <section id="About">
-                    <h1>About</h1>
+                    <div className="about">
+                        <div className="title">About Me</div>
+                        <div class="row">
+                            
+                            <div className="col-md">
+                                
+                            </div>
+                            <img className="meSvg col-sm" src={me}/>
+                        </div>
+                        
+                    </div>
                 </section>
             </div>
          );

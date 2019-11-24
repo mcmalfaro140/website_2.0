@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from './Components/Main'
+import Main from './Components/Home'
 import NavBar from './Components/Navbar'
 import Portfolio from './Components/Portfolio'
 import Resume from './Components/Resume'
@@ -13,9 +13,10 @@ function App() {
       <NavBar></NavBar>
       <Main></Main>
       <Portfolio></Portfolio>
+      <About></About>
       <Resume></Resume>
       <Contact></Contact>
-      <About></About>
+      
     </div>
     
   );

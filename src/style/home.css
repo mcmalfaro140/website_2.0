@@ -1,6 +1,7 @@
 /*mobil view*/
-.App {
-    background-image: url('../img/test2.jpg');
+
+.home{
+    background-image: url('../img/maindark.jpg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,36 +10,26 @@
     padding: 0%;
     overflow: hidden;
     white-space: nowrap;
-   
-
-    
-  }
-    
-  .cont {
-    margin-left:auto;
-    margin-right:auto;
-    /* height: 50vh; */
-    padding: 10%;
-    color: white;
-    padding-top: 30%;
     text-align: center ;
-    scroll-behavior: smooth;
-    scroll-snap-type-y: mandatory;
-    scroll-snap-align: center;
-    
+    padding-top: 40%;
+    color: white;
 }
-.welcome{
-    font-size: 300%;
-    font-weight: bold;
-    text-shadow:
-        -1px -1px 0 #9F00C5,
-        1px -1px 0 #9F00C5,
-        -4px 4px 0 #9F00C5,
-        1px 1px 0 #0000;
+
+.imglogo{
+    width: 40%;
+
 }
+
 .btn {
-    margin: 8%
+   
+    display: block;
+    margin: 3%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+     
 }
+
 div i {
     font-size: 200%;
     padding: 3%;
@@ -57,6 +48,12 @@ div a {
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
 }
+.slogan{
+    font-size: 150%;
+    font-weight: 600;
+    margin: 0%
+}
+
  
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
@@ -69,66 +66,79 @@ div a {
       transform: translateY(-15px);
     }
 }
-.imglogo{
-    width: 35%;
-    margin-top: -5%;
 
-}
 
 /*Tablet view*/
 @media only screen and (min-width: 768px) {
-    .cont {
-        padding-top: 15%;
-        
-        
+    .home{
+        padding-top: 30%
     }
-    .btn {
-        margin: 3%
+   .btn {
+       display: inline;
+        margin-right: 1%;
+        width: 35%
     }
-    div i {
-        font-size: 275%;
-        padding: 1%;
-        
-    }
-    div a {
-        font-size: 300%
-    }
-}
 
-
-/*Desktop view*/
-@media only screen and (min-width: 1033px){
-        
-    .cont {
-        padding-top: 10%;
-    }
-    .welcome{
-        font-size: 500%;
-        font-weight: bold;
-        
-    }
-    
-    .btn {
-        margin: 2%
-    }
     div i {
         font-size: 250%;
-        padding: 1%;
+        margin: 1%
         
     }
     
     div a {
         font-size: 350%
     }
-    
-    .text {
-        font-size: 150%
-    }
       
     .arrow {
         margin: 5%;
     }
-    .imglogo {
-        display: none;
+    .name{
+        font-size: 170%
+    }
+    
+    .box {
+        
+        padding: 0px;
+        margin-left: 0%;
+    }
+    .slogan{
+        font-size: 250%;
+    }
+}
+
+
+/*Desktop view*/
+@media only screen and (min-width: 1033px){
+    .home{
+        text-align: left ;
+        padding-top:8% 
+    }
+    .btn{
+        width: 20%;
+        margin: 0%;
+        margin-right: 2%
+    }
+    
+    div i {
+        padding-right: 3%;
+        padding-left: 0%;
+        padding-top: 1%;
+        margin: 0%
+        
+    }
+    
+    .imglogo{
+        width: 15%;
+        margin-left: 14%
+    
+    }
+    
+    .box {
+        border-left: solid white 3px;
+        padding: 10px;
+        margin-left: 10%;
+    }
+    .slogan{
+        margin: 0%
     }
 }

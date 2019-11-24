@@ -1,6 +1,6 @@
 
 nav {
-    background-color: black;
+    background-color: #000000d3;
     position: fixed;
 }
   .logo {
@@ -10,6 +10,13 @@ nav {
     color: white;
     margin-top: 1%;
     margin-left: 1%;
+    font-weight: 200
+  }
+
+  .logoName span {
+    color: #ffa500;
+    font-weight: 800;
+    font-size: 110%
   }
   
   .navbar-nav .nav-item .nav-link {
@@ -19,7 +26,11 @@ nav {
   }
   
   .navbar-nav .nav-item .nav-link:hover {
-    color: #7ef9ff;
+    color: #ffa500;
+  }
+
+  .navbar-nav li {
+    margin-right: 2%
   }
   
   ul span {

@@ -7,7 +7,7 @@ class Resume extends React.Component {
         return ( 
             <div className="App">
                 <section id="Resume">
-                    <h1>Resume</h1>
+                    <div className="title">My Resume</div>
                 </section>
             </div>
          );

@@ -7,7 +7,7 @@ class Contact extends React.Component {
         return ( 
             <div className="App">
                 <section id="Contact">
-                    <h1>Contact</h1>
+                    <div className="title">Contact</div>
                 </section>
             </div>
          );
