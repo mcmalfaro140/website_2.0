@@ -6,7 +6,7 @@ class About extends React.Component {
     state = {  }
     render() { 
         return ( 
-            <div className="App">
+            <div className="App aboutContainer">
                 <section id="About">
                     <div className="about">
                         <div className="title">About Me</div>

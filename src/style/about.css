@@ -1,5 +1,11 @@
 /*mobil view*/
 
+.aboutContainer{
+  background-image: url('../img/backAbout1.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .about{
     text-align: center ;
   }

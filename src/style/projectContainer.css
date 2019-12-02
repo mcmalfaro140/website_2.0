@@ -1,0 +1,34 @@
+.projectContainer{
+    width: 100%;
+    float: right;
+    margin: 3%;
+    box-shadow: 2px 2px 7px #ffa600c0, 5px 5px 14px #ffa60050;
+  }
+
+.refImge {
+    max-width: 100%;
+    max-height: 100%;
+    display: block; 
+}
+
+.projectImg{
+    padding: 5%;
+    height: 100%;
+    width: 100%;
+}
+
+.buttonProject {
+    margin: 2%;
+    width: 40%;
+    height: 40px;
+}
+
+.projectTitle{
+    font-weight: 700;
+    font-size: 160%
+}
+
+.projectDesc{
+    padding: 5%
+}
+
