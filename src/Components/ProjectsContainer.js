@@ -21,8 +21,8 @@ class ProjectsContainer extends React.Component {
                 </div>
                 
                 <div className="btnBox">
-                    <button class="buttonProject btn-primary" >Project Page</button>
-                    <button class="buttonProject btn-primary" >Project Github</button>
+                    <a href={this.props.proj.projUrl}><button class="buttonProject btn-primary" >Project Page</button></a>
+                    <a href={this.props.proj.projGit}><button class="buttonProject btn-primary" >Project Github</button></a>
                 </div>
                 
                 

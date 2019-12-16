@@ -9,7 +9,31 @@
 .about{
     text-align: center ;
   }
- 
+
+  .catcher{
+    font-size: 500%;
+    font-weight: 900;
+    color: #7f0000
+  }
+  .nameInfo{
+    font-size: 220%
+  }
+ .hello {
+   font-size: 220%;
+   font-weight: 500;
+   color: #ec9f05
+ }
+
+ .aboutMeText {
+   margin: 10%;
+   font-size: 140%;
+   font-family: "Times New Roman", Times, serif;
+   text-align: justify
+ }
+
+ .textCont{
+   margin-left: 10%
+ }
    
   /*Tablet view*/
   @media only screen and (min-width: 768px) {

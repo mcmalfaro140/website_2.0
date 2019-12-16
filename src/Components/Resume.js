@@ -1,13 +1,24 @@
 import React from 'react';
-import '../style/portfolio.css'
+import '../style/resume.css'
+import resume from '../img/myResumeImg.jpg'
+
 
 class Resume extends React.Component {
     state = {  }
     render() { 
         return ( 
-            <div className="App">
+            <div className="App resumeContainer">
                 <section id="Resume">
-                    <div className="title">My Resume</div>
+                    <div className="resume">
+                        <div className="title">My Resume</div>
+                        <div className="resumeImgContainer">
+                            <img className="resumeImg" src={resume}/>
+                        </div>
+                        <div >
+                        <a href="../myResume.pdf" download="MisaelCorveraResume.pdf" ><button class="downloadProjectbtn btn-primary" >Download My Resume</button></a>
+                        </div>
+                    </div>
+                    
                 </section>
             </div>
          );

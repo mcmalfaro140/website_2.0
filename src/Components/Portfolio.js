@@ -11,13 +11,16 @@ class Portfolio extends React.Component {
             {
                 img : dashboardImg,
                 title : "AWS Resources Dashboard",
-                desc: "Web application built to monitor resources metrics and logs from Amazon Web Servides using charts and tables."
-
+                desc: "Web application built to monitor resources metrics and logs from Amazon Web Servides using charts and tables.",
+                projUrl: 'https://awsdashboard.netlify.com/',
+                projGit: 'https://github.com/mcmalfaro140/ccc_dashboard_react'
             },
             {
                 img : mywash,
-                title : "Carwas App on Android",
-                desc: "Android application that connects users willing to do a carwash for another user."
+                title : "Carwash App on Android",
+                desc: "Android application that connects users willing to do a carwash for another user.",
+                projUrl: 'https://github.com/VeronicaToriz/AndroidFinalProject',
+                projGit: 'https://github.com/VeronicaToriz/AndroidFinalProject'
             }
         ]
      }

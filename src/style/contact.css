@@ -1,0 +1,62 @@
+.contactContainer{
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding-left:10%;
+    padding-right: 10%
+}
+.contact{
+    margin-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center ;
+    
+}
+
+.titleContact{
+    color: #7f0000;
+    font-size: 200%;
+    font-weight: 700;
+    padding-top: 3%;
+
+}
+
+.contactRow{
+    color: #7f0000;
+    text-align: center;
+    margin: 3%;
+    font-size: 90%;
+}
+
+.contactTitle{
+    font-weight: 500;
+    padding-top: 10%;
+    font-size: 150%;
+}
+
+.logoNameCont {
+    color: white;
+    font-weight: 200;
+    padding-top: 3%
+  }
+
+  .logoNameCont span {
+    color: #7f0000;
+    font-weight: 800;
+    font-size: 110%
+  }
+.rowContact {
+    border-top: #7f0000 solid 2px;
+    border-bottom: #7f0000 solid 2px;
+}
+
+.footer {
+    margin-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
