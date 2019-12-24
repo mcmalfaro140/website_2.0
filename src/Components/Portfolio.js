@@ -4,6 +4,7 @@ import thinking from '../img/thinking.svg';
 import ProjectsContainer from '../Components/ProjectsContainer'
 import dashboardImg from '../img/dashboard.png';
 import mywash from '../img/carwash.png';
+import event from '../img/event.png';
 
 class Portfolio extends React.Component {
     state = { 
@@ -21,6 +22,13 @@ class Portfolio extends React.Component {
                 desc: "Android application that connects users willing to do a carwash for another user.",
                 projUrl: 'https://github.com/VeronicaToriz/AndroidFinalProject',
                 projGit: 'https://github.com/VeronicaToriz/AndroidFinalProject'
+            },
+            {
+                img : event,
+                title : "Event Brite Copy",
+                desc: "Web application that allows users to buy and sell tickets for events.",
+                projUrl: 'https://eventbrite140.netlify.com/',
+                projGit: 'https://github.com/VeronicaToriz/EventBrite'
             }
         ]
      }
