@@ -11,6 +11,7 @@ class Resume extends React.Component {
                 <section id="Resume">
                     <div className="resume">
                         <div className="title">My Resume</div>
+                        <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
                         <div className="resumeImgContainer">
                             <img className="resumeImg" src={resume}/>
                         </div>

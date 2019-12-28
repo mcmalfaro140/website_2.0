@@ -11,7 +11,7 @@ function Main() {
           
           <div className="box">
             <div className="name">Hello, I'm Misael Corvera.</div>
-            <div className="slogan">I'm Software Developer</div>
+            <div className="slogan">I'm a Software Developer</div>
             <a href="../myResume.pdf" download="MisaelCorveraResume.pdf" ><button className="btn" class="btn btn-primary" >Download my resume</button></a>
             <a href="#Portfolio"><button className="btn" class="btn btn-primary">See My Projects</button></a>
             

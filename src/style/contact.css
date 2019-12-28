@@ -8,7 +8,7 @@
     padding-right: 10%
 }
 .contact{
-    margin-top: 4%;
+    margin-top: 15%;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center ;
@@ -39,7 +39,7 @@
 .logoNameCont {
     color: white;
     font-weight: 200;
-    padding-top: 3%
+    padding-top: 15%
   }
 
   .logoNameCont span {
@@ -60,3 +60,39 @@
     padding-right: 5%;
 }
 
+.fontColor{
+    color:#7f0000
+}
+
+.gitLogo{
+    font-size:320%
+}
+
+.emailFont{
+    display: none
+}
+/*Tablet view*/
+@media only screen and (min-width: 768px) {
+    .contact{
+        margin-top: 4%;
+        
+    }
+    .logoNameCont {
+        color: white;
+        font-weight: 200;
+        padding-top: 3%
+      }
+    .emailFont{
+        display: block
+    }
+    .contactRow{
+        margin: 5%;
+    }
+}
+
+/*Desktop view*/
+@media only screen and (min-width: 1033px){
+    .contactRow{
+        margin: 3%;
+    }
+}

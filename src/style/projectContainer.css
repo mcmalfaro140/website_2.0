@@ -1,8 +1,9 @@
 .projectContainer{
     width: 100%;
-    float: right;
-    margin: 3%;
+    float: center;
+    margin-bottom: 5%;
     box-shadow: 2px 2px 7px #ffa600c0, 5px 5px 14px #ffa60050;
+    background-color:white;
   }
 
 .refImge {
@@ -32,3 +33,23 @@
     padding: 5%
 }
 
+/*Tablet view*/
+@media only screen and (min-width: 768px) {
+    .projectContainer{
+        width: 100%;
+        float: right;
+        margin: 3%;
+        box-shadow: 2px 2px 7px #ffa600c0, 5px 5px 14px #ffa60050;
+      }
+      .buttonProject {
+        margin: 3%;
+        width: 80%;
+    }
+}
+/*Desktop view*/
+@media only screen and (min-width: 1033px){
+    .buttonProject {
+        margin: 2%;
+        width: 40%;
+    }
+}

@@ -20,8 +20,8 @@ class Portfolio extends React.Component {
                 img : mywash,
                 title : "Carwash App on Android",
                 desc: "Android application that connects users willing to do a carwash for another user.",
-                projUrl: 'https://github.com/VeronicaToriz/AndroidFinalProject',
-                projGit: 'https://github.com/VeronicaToriz/AndroidFinalProject'
+                projUrl: 'https://github.com/mcmalfaro140/MyWashApp',
+                projGit: 'https://github.com/mcmalfaro140/MyWashApp'
             },
             {
                 img : event,
@@ -43,6 +43,7 @@ class Portfolio extends React.Component {
                 <section id="Portfolio">
                     <div className = "portfolio container">
                         <div className="title">Portfolio</div>
+                        <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
                         <div class="row">
                             <img className="thinkingSvg col-sm" src={thinking}/>
                             <div className="col-md">

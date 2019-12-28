@@ -9,8 +9,8 @@ nav {
   .logoName {
     color: white;
     margin-top: 1%;
-    margin-left: 1%;
-    font-weight: 200
+    margin-left: 0%;
+    font-weight: 200;
   }
 
   .logoName span {
@@ -40,4 +40,22 @@ nav {
     margin-top: 2%
   }
   
+/*Tablet view*/
+@media only screen and (min-width: 768px) {
+  .logoName {
+    color: white;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-weight: 200
+  }
+
+  .logoName span {
+    color: #ffa500;
+    font-weight: 800;
+    font-size: 110%
+  }
+}
+
+/*Desktop view*/
+@media only screen and (min-width: 1033px){}
   

@@ -29,6 +29,6 @@ class ProjectsContainer extends React.Component {
             </div>
          );
     }
-}
+} 
  
 export default ProjectsContainer;

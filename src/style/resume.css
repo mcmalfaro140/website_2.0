@@ -3,14 +3,31 @@
     text-align: center ;
   }
 .resumeImg{
-    width: 65%;
+    width: 90%;
     box-shadow: 2px 2px 7px #ffa600c0, 5px 5px 14px #ffa60050;
 }
 
 .downloadProjectbtn{
-    margin-top: 5%;
-    width: 25%;
+    margin-top: 10%;
+    width: 50%;
     height: 50px;
     font-weight: 700;
-    font-size: 90%
+    font-size: 100%
+}
+
+/*Tablet view*/
+@media only screen and (min-width: 768px) {
+
+    .downloadProjectbtn{
+        margin-top: 5%;
+        width: 25%;
+        font-size: 90%
+    }
+}
+
+/*Desktop view*/
+@media only screen and (min-width: 1033px){
+    .resumeImg{
+        width: 65%;
+    }
 }
